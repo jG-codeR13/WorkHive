@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto+Condensed:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+body {
+  font-family: "Open Sans";
+  background-color: #f2f2f2;
+}
+
+:root {
+  --primary-dark: #2E84CF;
+  --primary-light: #2E84CF;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+code {
+  font-family: "Open Sans", source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+h1 {
+  font-size: 3.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+hr {
+  margin: 32px 0;
+}
+
+.button-input {
+  border-radius: 8px;
+  box-sizing: border-box;
+  display: block;
+  font-size: 16px;
+  margin: 8px 0;
+  padding: 8px;
+  width: 100%;
+}
+
+input {
+  border: 1px solid black;
+}
+
+.page-container {
+  display: flex;
+  background-color: #ddd;
+  min-height: 100vh;
+  min-width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.content-container {
+  background-color: white;
+  border-radius: 8px;
+  min-width: 300px;
+  max-width: 800px;
+  padding: 32px;
+}
+
+.success {
+  background-color: #90ee90;
+  border-radius: 8px;
+  margin-bottom: 8px;
+  padding: 16px;
+  text-align: center;
+}
+
+.fail {
+  background-color: #ffcccb;
+  border-radius: 8px;
+  margin-bottom: 8px;
+  padding: 16px;
+  text-align: center;
+}
+
+.field-error {
+  color: red;
+  padding-left: 8px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1240px;
+  margin: auto;
+  padding: 0 1rem;
+}
+
+button {
+  background-image: linear-gradient(45deg,var(--primary-dark) 0%, var(--primary-light) 100%);
+  border: 1px solid var(--primary-dark);
+  /* color: #444054; */
+  color: white;
+  padding: .7rem 1.5rem;
+  border-radius: 8px;
+  cursor: pointer;
+  font-family: 'Open Sans';
+}
+
+@media screen and (max-width: 940px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+}
+
+.listContainer {
+  
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.listWrapper {
+  width: 100%;
+  max-width: 1024px;
+  display: flex;
+  gap: 20px;
+  min-height: 500px;
+  background-color: white;
+}
+
+.listContainerRewards {
+  background-image: url("https://www.marriott.com/content/dam/marriott-homepage/destinations/hawaii2.png.transform/mcom-hp-transform-1292x646/image.png");
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.listWrapperRewards {
+  background-image: url("https://www.marriott.com/content/dam/marriott-homepage/destinations/hawaii2.png.transform/mcom-hp-transform-1292x646/image.png");
+  width: 100%;
+  max-width: 1024px;
+  display: flex;
+  gap: 20px;
+  min-height: 500px;
+  background-color: white;
+}
+
+.listSearch {
+  flex: 1;
+  background-color: #dbedf6;
+  padding: 10px;
+  border-radius: 10px;
+  position: sticky;
+  top: 10px;
+  height: max-content;
+  margin: 16px;
+}
+
+.lsTitle{
+  font-size: 20px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.lsItem{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-bottom: 10px;
+}
+
+.lsItem>label{
+  font-size: 12px;
+}
+
+.lsItem>input{
+  height: 30px;
+  border: none;
+  padding: 5px;
+}
+.lsItem>span{
+  height: 30px;
+  padding: 5px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.lsOptions{
+  padding: 10px;
+}
+
+.lsOptionItem{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  color: #555;
+  font-size: 12px;
+}
+
+.lsOptionInput{
+  width: 50px;
+}
+
+.listSearch>button{
+  padding: 10px;
+  background-color: #2E84CF;
+  color: white;
+  border: none;
+  width: 100%;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.listResult {
+  flex: 3;
+  margin: 16px;
+}
+
+.pageHeading {
+  margin-bottom: 16px;
+  color: #2E84CF;
+}
+
+.continueButton {
+  margin-top: 16px;
+  background-image: linear-gradient(45deg,var(--primary-dark) 0%, var(--primary-light) 100%);
+  font-family: 'Open Sans';
+  text-align: center;
+}

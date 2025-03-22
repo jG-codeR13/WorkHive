@@ -1,0 +1,33 @@
+.footer {
+    border-top: 1px solid lightgray;
+    padding: 20px;
+    background-color: #f7f7f7;
+    text-align: center;
+}
+
+.footer > p {
+    padding: 5px;
+    font-size: 14px;
+}
+.footer{
+    width: 100%;
+    font-size: 12px;
+  }
+  
+  .fLists{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+  }
+  
+  .fList{
+    list-style: none;
+    padding: 0;
+  }
+  
+  .fListItem{
+    margin-bottom: 10px;
+    color: #003580;
+    cursor: pointer;
+  }

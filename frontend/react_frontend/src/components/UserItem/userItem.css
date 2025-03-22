@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+.reward{
+    background-image: url('https://www.marriott.com/content/dam/marriott-homepage/brand/LargeBanner_desktop.jpg.transform/mcom-hp-transform-1440x576/image.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: auto;
+    top: 105px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+}
+
+.reward > h2{
+    background-color: seashell;
+}
+
+.card_class{
+    margin-top: 5%;
+    margin-bottom: 2%;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 6px 18px -9px rgba(0, 0, 0, 0.75);
+    transition: transform 100ms ease-in;
+    cursor: pointer;
+    background: seashell;
+    font-family: "Open Sans";
+    font-family: "Open Sans";
+    height: 25%;
+    top:30%;
+}
+
+.card_class > h2{
+    margin-left: 45%;
+}
+.card_class > span{
+    margin-left: 30%;
+    font-size: 30px;
+}
+
+.home__section {
+    display: flex;
+    padding: 30px;
+    background-color: seashell !important;
+  }
+
+  .card {
+    margin: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 6px 18px -9px rgba(0, 0, 0, 0.75);
+    transition: transform 100ms ease-in;
+    cursor: pointer;
+  }
+  
+  .card:hover {
+    transform: scale(1.07);
+  }
+  
+  .card > img {
+    object-fit: cover;
+    width: 300px;
+    height: 300px;
+  }
+  
+  .card__info {
+      margin-top: -9px;
+      border-radius: 10px;
+      padding: 20px;
+      padding-top: 20px;
+      border: 1;
+    }
+  
+    .card__info > h2 {
+      font-size: 18px;
+      font-weight: 600;
+    }
+    
+    .card__info > h4 {
+      font-size: 14px;
+      font-weight: 300;
+      margin-top: 8px;
+      margin-bottom: 8px;
+    }
